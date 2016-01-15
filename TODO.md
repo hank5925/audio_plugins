@@ -11,4 +11,4 @@
   Tested in Xcode 7.2, MacOSX 10.11.2, Audacity 2.1.1
 
 ## Credit
-Ying-Shu Kuo (Jan 14 2016)
+Ying-Shu Kuo (Jan 15 2016)
