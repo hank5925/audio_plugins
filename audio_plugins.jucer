@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<JUCERPROJECT id="aCXsUH" name="audio_plugins" projectType="audioplug" version="1.0.0"
+              bundleIdentifier="com.yourcompany.audio_plugins" includeBinaryInAppConfig="1"
+              buildVST="1" buildVST3="0" buildAU="1" buildRTAS="0" buildAAX="0"
+              pluginName="audio_plugins" pluginDesc="audio_plugins" pluginManufacturer="yourcompany"
+              pluginManufacturerCode="Manu" pluginCode="Acxs" pluginChannelConfigs=""
+              pluginIsSynth="0" pluginWantsMidiIn="0" pluginProducesMidiOut="0"
+              pluginIsMidiEffectPlugin="0" pluginSilenceInIsSilenceOut="0"
+              pluginEditorRequiresKeys="0" pluginAUExportPrefix="audio_pluginsAU"
+              pluginRTASCategory="" aaxIdentifier="com.yourcompany.audio_plugins"
+              pluginAAXCategory="AAX_ePlugInCategory_Dynamics" jucerVersion="4.1.0">
+  <MAINGROUP id="cstJeg" name="audio_plugins">
+    <GROUP id="{C0EE21ED-E973-1C28-422E-65C8C8A86923}" name="Source">
+      <FILE id="uWcWWc" name="PluginProcessor.cpp" compile="1" resource="0"
+            file="Source/PluginProcessor.cpp"/>
+      <FILE id="zbN5BC" name="PluginProcessor.h" compile="0" resource="0"
+            file="Source/PluginProcessor.h"/>
+      <FILE id="tXamo2" name="PluginEditor.cpp" compile="1" resource="0"
+            file="Source/PluginEditor.cpp"/>
+      <FILE id="BISWww" name="PluginEditor.h" compile="0" resource="0" file="Source/PluginEditor.h"/>
+    </GROUP>
+  </MAINGROUP>
+  <EXPORTFORMATS>
+    <XCODE_MAC targetFolder="Builds/MacOSX">
+      <CONFIGURATIONS>
+        <CONFIGURATION name="Debug" osxSDK="default" osxCompatibility="default" osxArchitecture="default"
+                       isDebug="1" optimisation="1" targetName="audio_plugins"/>
+        <CONFIGURATION name="Release" osxSDK="default" osxCompatibility="default" osxArchitecture="default"
+                       isDebug="0" optimisation="3" targetName="audio_plugins"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_core" path="../juce-grapefruit-osx/modules"/>
+        <MODULEPATH id="juce_events" path="../juce-grapefruit-osx/modules"/>
+        <MODULEPATH id="juce_graphics" path="../juce-grapefruit-osx/modules"/>
+        <MODULEPATH id="juce_data_structures" path="../juce-grapefruit-osx/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="../juce-grapefruit-osx/modules"/>
+        <MODULEPATH id="juce_audio_basics" path="../juce-grapefruit-osx/modules"/>
+        <MODULEPATH id="juce_audio_devices" path="../juce-grapefruit-osx/modules"/>
+        <MODULEPATH id="juce_audio_formats" path="../juce-grapefruit-osx/modules"/>
+        <MODULEPATH id="juce_audio_processors" path="../juce-grapefruit-osx/modules"/>
+        <MODULEPATH id="juce_audio_plugin_client" path="../juce-grapefruit-osx/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../juce-grapefruit-osx/modules"/>
+      </MODULEPATHS>
+    </XCODE_MAC>
+  </EXPORTFORMATS>
+  <MODULES>
+    <MODULE id="juce_audio_basics" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_audio_devices" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_audio_formats" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_audio_plugin_client" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_audio_processors" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_core" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_data_structures" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_events" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_graphics" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_gui_basics" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_gui_extra" showAllCode="1" useLocalCopy="0"/>
+  </MODULES>
+  <JUCEOPTIONS JUCE_QUICKTIME="disabled"/>
+  <LIVE_SETTINGS>
+    <OSX/>
+  </LIVE_SETTINGS>
+</JUCERPROJECT>
