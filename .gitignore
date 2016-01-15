@@ -38,3 +38,21 @@ JuceLibraryCode/modules/juce_graphics/juce_graphics.h
 JuceLibraryCode/modules/juce_gui_basics/juce_gui_basics.h
 
 JuceLibraryCode/modules/juce_gui_extra/juce_gui_extra.h
+
+Builds/MacOSX/build/Debug/audio_plugins.component/Contents/Info.plist
+
+Builds/MacOSX/build/Debug/audio_plugins.component/Contents/MacOS/audio_plugins
+
+Builds/MacOSX/build/Debug/audio_plugins.component/Contents/PkgInfo
+
+Builds/MacOSX/build/Debug/audio_plugins.component/Contents/Resources/audio_plugins.rsrc
+
+Builds/MacOSX/build/Debug/audio_plugins.component/Contents/Resources/RecentFilesMenuTemplate.nib
+
+TestAudio/sax.wav
+
+TestAudio/sine.wav
+
+TestAudio/sweep.wav
+
+TestAudio/vivadi.wav
