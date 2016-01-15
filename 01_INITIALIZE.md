@@ -30,6 +30,7 @@ At this point, we will have several subfolders in our project folder.
 ### Where to Use the Plugin?
 
 Audacity is an open-source, light-weight DAW. The installed plugins would appear inside Generate / Effect / Analyze. For the other kinds of DAW, please refer to their guide.
+For the newly compiled plugin, go to Effect > Manage..., and look for the plugin in the dialogue. Enable the new plugin and click OK to complete the setting. The plugin should be shown up in Effect menu now.
 
 ## Credit
 Ying-Shu Kuo (Jan 14 2016)
