@@ -56,3 +56,11 @@ TestAudio/sine.wav
 TestAudio/sweep.wav
 
 TestAudio/vivadi.wav
+
+Plugin Host.app/Contents/Info.plist
+
+Plugin Host.app/Contents/MacOS/Plugin Host
+
+Plugin Host.app/Contents/PkgInfo
+
+Plugin Host.app/Contents/Resources/RecentFilesMenuTemplate.nib
