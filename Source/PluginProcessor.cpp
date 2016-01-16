@@ -84,12 +84,27 @@ void Audio_pluginsAudioProcessor::prepareToPlay (double sampleRate, int samplesP
 {
     // Use this method as the place to do any pre-playback
     // initialisation that you need..
+
+    // allocate effects
+    delay = new Delay();
+    
+    // parameters
+
+    
+    // prepareToPlay
+    delay->prepareToPlay(sampleRate, samplesPerBlock);
 }
 
 void Audio_pluginsAudioProcessor::releaseResources()
 {
     // When playback stops, you can use this as an opportunity to free up any
     // spare memory, etc.
+    
+    // releaseResource
+    delay->releaseResource();
+    
+    // desctruct effects
+    delete delay;
 }
 
 void Audio_pluginsAudioProcessor::processBlock (AudioSampleBuffer& buffer, MidiBuffer& midiMessages)
@@ -110,6 +125,7 @@ void Audio_pluginsAudioProcessor::processBlock (AudioSampleBuffer& buffer, MidiB
         float* channelData = buffer.getWritePointer (channel);
 
         // ..do something to the data...
+        delay->processBlock(channelData);
     }
 }
 
