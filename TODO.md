@@ -1,6 +1,9 @@
 ## TODO
 
 * Design plugin testing framework (JUCE built-in or DIY)
+    Trying to use command line tool in Xcode + UnitTest in JUCE to build testing framework.
+    This means that I can no more use XCTest framework for testing, which means there is no fance feature that shows green and red pass/fail indicators :(
+    Hope I can make the UnitTestRunner work.
 * Design plugin program framework
 ...more to come later
 

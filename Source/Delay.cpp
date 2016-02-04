@@ -25,3 +25,6 @@ void Delay::processBlock(float* buffer) {
     counter += 1;
     std::cout << "delay: process block " << counter << std::endl;
 }
+int Delay::testFunction() {
+    return 100;
+}

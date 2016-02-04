@@ -21,6 +21,7 @@ public:
     void prepareToPlay(double sampleRate, int samplesPerBlock);
     void releaseResource();
     void processBlock(float* buffer);
+    int testFunction();
     
 private:
     int counter;
